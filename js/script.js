@@ -294,13 +294,13 @@ function myFunctionSunday() {
   document.getElementById("e7").style.display = "none";
 }
 
-// var myVar;
-// function myFunction1000() {
-//   myVar = setTimeout(showPage, 800);
-// }
+var myVar;
+function myFunction1000() {
+  myVar = setTimeout(showPage, 100);
+}
 
-// function showPage() {
-//   document.getElementById("loader").style.display = "none";
-//   document.getElementById("everything").style.display = "block";
-//   document.getElementById("headerwork").style.height = "100vh";
-// }
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("everything").style.display = "block";
+  document.getElementById("headerwork").style.height = "100vh";
+}
